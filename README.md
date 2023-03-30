@@ -1,5 +1,13 @@
-# Проект "Экран с анкетой".
+## Проект "Экран с анкетой".
 В рамках проекта было выполнено:
-1. Работа с загрузкой фото из фотогалереи iPhone c помощью UIImagePickerController
-2. Работа с UITextFieldDelegate
-3. Работа с FirstResponder
+- Реализован экран с анкетой  с помощью UITableView
+- Реализована навигация между полями с помощью работы с FirstResponder
+- Реализована проверка на корректность введенных данных с помощью работы с жизненным циклом UIViewController
+- Реализована работа с данными, введенными пользователем, с помощью UITextFieldDelegate
+- Реализована загрузка фото из фотогалереи iPhone c помощью UIImagePickerController
+- Реализован экран с уведомлением об успешном заполнении и навигация на него
+
+## Preview
+![Preview](https://github.com/discoclash/test-form-screen/blob/main/Preview.gif)
+
+
