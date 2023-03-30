@@ -17,7 +17,6 @@ class MainViewController: UIViewController {
     private lazy var tableView: UITableView = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.dataSource = self
-        //$0.keyboardDismissMode = .onDrag
         $0.register(AvatarViewCell.self, forCellReuseIdentifier: "AvatarCell")
         $0.register(PersonDetailesCell.self, forCellReuseIdentifier: "DetailCell")
         return $0
